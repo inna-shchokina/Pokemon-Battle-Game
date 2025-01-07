@@ -10,7 +10,7 @@ const Favorites = () => {
     return (
       <div>
         <Header />
-        <div className="bg-gradient-to-r from-purple-500 to-blue-600 min-h-screen p-8 flex flex-col items-center">
+        <div className="bg-gradient-to-r min-h-screen p-8 flex flex-col items-center">
           <p className="text-white mt-4">No favorite Pokémon selected.</p>
         </div>
       </div>

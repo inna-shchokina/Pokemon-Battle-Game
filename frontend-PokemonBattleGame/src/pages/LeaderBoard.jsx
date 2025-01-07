@@ -9,7 +9,7 @@ function LeaderBoard() {
     async function fetchLeaderBoard() {
       try {
         const res = await fetch(
-          "http://localhost:3000/api/v1/leaderboards"
+          `${import.meta.env.VITE_API_BASE_URL}/api/v1/leaderboards`
         );
         const data = await res.json();
         setLeaderBoard(data);
@@ -17,7 +17,7 @@ function LeaderBoard() {
         // Fetch each user's data in parallel
         const usersPromises = data.map(async (user) => {
           const response = await fetch(
-            `http://localhost:3000/api/v1/users/${user.userId}`
+            `${import.meta.env.VITE_API_BASE_URL}/api/v1/users/${user.userId}`
           );
           return response.json();
         });

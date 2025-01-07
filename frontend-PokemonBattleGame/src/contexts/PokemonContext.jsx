@@ -57,7 +57,7 @@ function PokemonProvider({ children }) {
       if (!user || !user._id) return;
       try {
         const response = await axios.get(
-          `http://localhost:3000/api/v1/users/${user._id}`
+          `${import.meta.env.VITE_API_BASE_URL}/api/v1/users/${user._id}`
         );
         const favoriteIds = response.data.favPokemonIds;
         const favoritePokemonDetails = state.pokemons.filter((p) =>
@@ -78,7 +78,7 @@ function PokemonProvider({ children }) {
     }
     try {
       await axios.put(
-        `http://localhost:3000/api/v1/users/${user._id}/add-fav-pokemon`,
+        `${import.meta.env.VITE_API_BASE_URL}/api/v1/users/${user._id}/add-fav-pokemon`,
         { pokemonId: pokemon.id }
       );
       dispatch({ type: "addToFavorites", payload: pokemon });
@@ -94,7 +94,7 @@ function PokemonProvider({ children }) {
     }
     try {
       await axios.put(
-        `http://localhost:3000/api/v1/users/${user._id}/remove-fav-pokemon`,
+        `${import.meta.env.VITE_API_BASE_URL}/api/v1/users/${user._id}/remove-fav-pokemon`,
         { pokemonId }
       );
       dispatch({ type: "removeFromFavorites", payload: pokemonId });

@@ -23,7 +23,7 @@ function LoginPopup({ onClose }) {
       const fetchFavorites = async () => {
         try {
           const response = await axios.get(
-            `http://localhost:3000/api/v1/users/${user._id}/favorites`
+            `${import.meta.env.VITE_API_BASE_URL}/api/v1/users/${user._id}/favorites`
           );
           dispatch({ type: "setFavorites", payload: response.data });
         } catch (error) {
@@ -36,31 +36,45 @@ function LoginPopup({ onClose }) {
 
   const handleLogin = async () => {
     try {
-      const response = await fetch(
-        "http://localhost:3000/api/v1/users"
+      const response = await axios.get(
+        `${import.meta.env.VITE_API_BASE_URL}/api/v1/users`
       );
-      if (!response.ok) {
-        const errorData = await response.json();
-        alert(`Error: ${errorData.message || "Could not fetch users."}`);
+      if (response.status !== 200) {
+        alert(`Error: ${response.data.message || "Could not fetch users."}`);
         return;
       }
 
-      const users = await response.json();
-      const foundUser = users.find((user) => user.userName === username);
+      const users = response.data;
+    console.log("Fetched users:", users);
 
-      if (foundUser) {
-        console.log("Found user:", foundUser);
+    const foundUser = users.find((user) => user.userName === username);
 
-        dispatch({ type: "setUser", payload: foundUser });
-        onClose();
-      } else {
-        alert("User not found");
-      }
-    } catch (error) {
-      console.error("Error trying to login:", error);
-      alert("An error occurred while trying to log in.");
+    if (foundUser) {
+      console.log("Found user:", foundUser);
+      dispatch({ type: "setUser", payload: foundUser });
+      onClose();
+    } else {
+      alert("User not found");
     }
-  };
+  } catch (error) {
+    console.error("Error trying to login:", error);
+
+    if (error.response) {
+      console.error("Response data:", error.response.data);
+      alert(
+        `Server Error: ${
+          error.response.data.message || "Unable to fetch users."
+        }`
+      );
+    } else if (error.request) {
+      console.error("Request error:", error.request);
+      alert("No response from the server. Check your API endpoint.");
+    } else {
+      console.error("Error message:", error.message);
+      alert("An unexpected error occurred.");
+    }
+  }
+};
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-30 flex justify-center items-center">

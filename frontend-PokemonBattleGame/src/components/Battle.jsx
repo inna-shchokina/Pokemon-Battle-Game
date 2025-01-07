@@ -20,7 +20,7 @@ function Battle({
   async function sendBattleOutcomeToApi(playerRed, playerBlue) {
     try {
       await axios.post(
-        "http://localhost:3000/api/v1/battle-outcomes",
+        `${import.meta.env.VITE_API_BASE_URL}/api/v1/battle-outcomes`,
         { playerRed, playerBlue }
       );
       console.log("the fight result has been sent to api successfully");

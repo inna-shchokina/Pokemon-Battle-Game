@@ -28,7 +28,7 @@ function SignupPopup({ onClose }) {
     const newUser = { firstName, lastName, userName, country };
     try {
       await axios.post(
-        "http://localhost:3000/api/v1/users",
+        `${import.meta.env.VITE_API_BASE_URL}/api/v1/users`,
         newUser
       );
       onClose();
