@@ -13,7 +13,10 @@ const app = express()
 
 app.use(
     cors({
-        origin: "http://localhost:5173",
+        origin: [
+            "http://localhost:5173", 
+            "https://pokemon-battle-game-1.onrender.com"
+          ],
         methods: ["GET", "POST", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type", "Authorization"],
     }),
