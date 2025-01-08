@@ -26,6 +26,9 @@
 - **React**
 - **HTML5**
 - **Tailwind CSS**
+- **Node.js**
+- **Express.js**
+- **MongoDB**
 
 ### 🚀 Live Demo
 
