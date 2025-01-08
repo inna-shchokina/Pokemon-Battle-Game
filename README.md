@@ -1,6 +1,6 @@
 ## Pokemon Battle Game
 
-**Pokemon Battle Game** is an interactive web application where users can experience thrilling Pokémon battles and track their progress. Players can log in or register to access their personal accounts, choose Pokémon, and engage in strategic battles with the system.
+**Pokemon Battle Game**  is a full-stack interactive web application where users can experience thrilling Pokémon battles and track their progress. Players can log in or register to access their personal accounts, choose Pokémon, and engage in strategic battles with the system.
 
 ### ✨ Features
 
