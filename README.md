@@ -4,10 +4,10 @@
 
 ### ✨ Features
 
-- **User Authentication**: 
+#### User Authentication**: 
 - Register or log in to access your personalized profile.
 - Secure account management with login/logout functionality.
-- **Pokémon Selection**: 
+#### Pokémon Selection**: 
 - Browse through a variety of Pokémon.
 - View detailed stats and characteristics of each Pokémon.
 - **Favorite Pokémon**: 
