@@ -22,9 +22,12 @@
 
 ### 🧑‍💻 Technologies Used
 
-- **React**
+#### Frontend: 
+- **React.js**
 - **HTML5**
 - **Tailwind CSS**
+
+#### Backend: 
 - **Node.js**
 - **Express.js**
 - **MongoDB**
