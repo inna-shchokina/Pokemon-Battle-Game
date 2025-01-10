@@ -16,7 +16,6 @@
 - **Pokémon Battles**: 
 - Select Pokémon from your favorites list and challenge the system.
 - Earn points for victories and increase your ranking.
-
 - **Leaderboard**: 
 - Check the leaderboard to see top-performing players.
 - Track your position and strive for the #1 spot.
