@@ -4,19 +4,19 @@
 
 ### ✨ Features
 
-#### User Authentication**: 
+#### 01. User Authentication: 
 - Register or log in to access your personalized profile.
 - Secure account management with login/logout functionality.
-#### Pokémon Selection**: 
+#### 02. Pokémon Selection: 
 - Browse through a variety of Pokémon.
 - View detailed stats and characteristics of each Pokémon.
-- **Favorite Pokémon**: 
+#### 03. Favorite Pokémon: 
 - Add or remove Pokémon from your personalized favorites list.
 - Easily manage your team of Pokémon fighters.
-- **Pokémon Battles**: 
+#### 04. Pokémon Battles: 
 - Select Pokémon from your favorites list and challenge the system.
 - Earn points for victories and increase your ranking.
-- **Leaderboard**: 
+#### 05. Leaderboard: 
 - Check the leaderboard to see top-performing players.
 - Track your position and strive for the #1 spot.
 
