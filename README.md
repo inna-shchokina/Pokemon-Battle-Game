@@ -38,17 +38,17 @@
 
 ### 📷 Screenshots
 
-<a href="https://github.com/inna-shchokina/Pokemon-Battle-Game/blob/main/Screens_Pokemon_battle/Pockemon_battle_3.jpg?raw=true" rel="noopener noreferrer">View Interface Screenshot 1</a> 
+<a href="https://github.com/inna-shchokina/Pokemon-Battle-Game/blob/main/Screens_Pokemon_battle/Pockemon_battle_3.jpg?raw=true" rel="noopener noreferrer">View Home Page</a> 
 <br>
-<a href="https://github.com/inna-shchokina/Pokemon-Battle-Game/blob/main/Screens_Pokemon_battle/Pockemon_battle_1.jpg?raw=true" target="_blank" rel="noopener noreferrer">View Interface Screenshot 2</a>
+<a href="https://github.com/inna-shchokina/Pokemon-Battle-Game/blob/main/Screens_Pokemon_battle/Pockemon_battle_1.jpg?raw=true" target="_blank" rel="noopener noreferrer">View Sign up Page</a>
 <br>
-<a href="https://github.com/inna-shchokina/Pokemon-Battle-Game/blob/main/Screens_Pokemon_battle/Pockemon_battle_2.jpg?raw=true" target="_blank" rel="noopener noreferrer">View Interface Screenshot 3</a>
+<a href="https://github.com/inna-shchokina/Pokemon-Battle-Game/blob/main/Screens_Pokemon_battle/Pockemon_battle_2.jpg?raw=true" target="_blank" rel="noopener noreferrer">View Login Page</a>
 <br>
-<a href="https://github.com/inna-shchokina/Pokemon-Battle-Game/blob/main/Screens_Pokemon_battle/Pockemon_battle_4.jpg?raw=true" target="_blank" rel="noopener noreferrer">View Interface Screenshot 4</a>
+<a href="https://github.com/inna-shchokina/Pokemon-Battle-Game/blob/main/Screens_Pokemon_battle/Pockemon_battle_4.jpg?raw=true" target="_blank" rel="noopener noreferrer">View Details Page</a>
 <br>
-<a href="https://github.com/inna-shchokina/Pokemon-Battle-Game/blob/main/Screens_Pokemon_battle/Pockemon_battle_5.jpg?raw=true" target="_blank" rel="noopener noreferrer">View Interface Screenshot 5</a>
+<a href="https://github.com/inna-shchokina/Pokemon-Battle-Game/blob/main/Screens_Pokemon_battle/Pockemon_battle_5.jpg?raw=true" target="_blank" rel="noopener noreferrer">View Favorites Page</a>
 <br>
-<a href="https://github.com/inna-shchokina/Pokemon-Battle-Game/blob/main/Screens_Pokemon_battle/Pockemon_battle_6.jpg?raw=true" rel="noopener noreferrer">View Interface Screenshot 6</a>
+<a href="https://github.com/inna-shchokina/Pokemon-Battle-Game/blob/main/Screens_Pokemon_battle/Pockemon_battle_6.jpg?raw=true" rel="noopener noreferrer">View Leaderboard Page</a>
 <br>
-<a href="https://github.com/inna-shchokina/Pokemon-Battle-Game/blob/main/Screens_Pokemon_battle/Pockemon_battle_7.jpg?raw=true" rel="noopener noreferrer">View Interface Screenshot 7</a>
+<a href="https://github.com/inna-shchokina/Pokemon-Battle-Game/blob/main/Screens_Pokemon_battle/Pockemon_battle_7.jpg?raw=true" rel="noopener noreferrer">View Battle Page</a>
 
